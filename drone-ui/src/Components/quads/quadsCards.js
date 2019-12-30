@@ -6,17 +6,17 @@ class QuadsCard extends Component {
     render() {
         return (
             <Col xs={3}>
-                <Card className="card" style={{ width: '18rem' }}>
+                <Card className="card" style={{ width: '18em' }}>
                     <Card.Body>
                         <Card.Title><strong>{this.props.data.model}</strong></Card.Title>
                         <Card.Text>
-                            <span><strong>MaximumFlightTime:</strong></span>
+                            <span><strong>Maximum Flight Time : </strong></span>
                             {this.props.data.maxFlightTime}
                             <br/>
-                            <span><strong>Manufaturer:</strong></span>
+                            <span><strong>Manufaturer : </strong></span>
                             {this.props.data.manufacturer}
                             <br />
-                            <span><strong>Charge:</strong></span>
+                            <span><strong>Charge : </strong></span>
                             {this.props.data.charge}
                         </Card.Text>
                         <Button variant="primary">Order</Button>

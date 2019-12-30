@@ -1,6 +1,14 @@
 .card-list{
+  padding-top: 1em;
   padding-left: 5em;
+  padding-right: 3em;
 }
 .card{
     text-align: center;
+}
+.nav-common{
+  color: white;
+}
+.nav-links{
+  font-size: 20px;
 }
