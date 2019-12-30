@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
-import {Card, Button} from 'react-bootstrap';
+import {Card, Button, Col} from 'react-bootstrap';
 
 
 class QuadsCard extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
-            <div>
-                <Card style={{ width: '18rem' }}>
+            <Col xs={3}>
+                <Card className="card" style={{ width: '18rem' }}>
                     <Card.Body>
-                        <Card.Title>{this.props.data.model}</Card.Title>
+                        <Card.Title><strong>{this.props.data.model}</strong></Card.Title>
                         <Card.Text>
+                            <span><strong>MaximumFlightTime:</strong></span>
                             {this.props.data.maxFlightTime}
+                            <br/>
+                            <span><strong>Manufaturer:</strong></span>
                             {this.props.data.manufacturer}
+                            <br />
+                            <span><strong>Charge:</strong></span>
+                            {this.props.data.charge}
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">Order</Button>
                     </Card.Body>
                 </Card>
                 <br />
-            </div>
+            </Col>
         );
     }
 

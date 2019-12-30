@@ -1,6 +1,7 @@
 import QuadsCard from './quadsCards';
 import Quads from './quads';
 import React, { Component } from 'react';
+import {Row} from 'react-bootstrap';
 
 class QuadsList extends Component {
     render() {
@@ -10,8 +11,10 @@ class QuadsList extends Component {
             );
         });
         return (
-            <div>
-                {cards}            
+            <div className="card-list">
+                <Row>
+                    {cards}            
+                </Row>
             </div>
         );
     }
