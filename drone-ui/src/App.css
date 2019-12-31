@@ -6,9 +6,15 @@
 .card{
     text-align: center;
 }
-.nav-common{
+.header-nav{
+  background: black;
   color: white;
+  height: 4em;
 }
-.nav-links{
-  font-size: 20px;
+.header-tittle{
+  padding-left: 2em;
+  padding-top: 4px;
+}
+.nav-bar{
+  padding-left: 3.4em;
 }
