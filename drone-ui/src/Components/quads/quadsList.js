@@ -5,9 +5,11 @@ import {Row} from 'react-bootstrap';
 
 class QuadsList extends Component {
     render() {
+        var keyVal = 0;
         const cards = Quads.quads.map((quad) =>{
+            keyVal = keyVal + 1; 
             return(
-                <QuadsCard key={0} data={quad}/>
+                <QuadsCard key={keyVal} data={quad}/>
             );
         });
         return (

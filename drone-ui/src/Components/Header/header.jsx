@@ -3,7 +3,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 function Header(){
     return(
         <Navbar bg="primary" variant="dark">
-            <Navbar.Brand className="nav-bar">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand className="nav-bar">Drone Rentals</Navbar.Brand>
             <Nav>
                 <Nav.Item>
                     <Nav.Link href="#home">Login</Nav.Link>
