@@ -3,7 +3,7 @@
         {
             "manufacturer": "Parrot",
             "model": "Anafi",
-            "maxFlightTime": "25min",
+            "maxFlightTime": "2min",
             "charge": "0%"
         },
         {
@@ -21,7 +21,7 @@
         {
             "manufacturer": "Cheerson",
             "model": "CX-32W",
-            "maxFlightTime": "7min",
+            "maxFlightTime": "1min",
             "charge": "72%"
         },
         {
